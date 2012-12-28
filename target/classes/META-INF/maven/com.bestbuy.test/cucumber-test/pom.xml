@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <tag>@calculadora</tag>
   </properties>
 
   <dependencies>
@@ -45,6 +46,11 @@
 												<argument>-Xmx1024M</argument>
 												<argument>-XX:MaxPermSize=512M</argument>
 
+												<!-- 
+							                    <argument>-Xdebug</argument>
+							                    <argument>-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5020</argument>
+							                     -->
+
 							                  	<argument>-classpath</argument>
 							                  	<classpath></classpath>
 							                  								                  	  
@@ -55,7 +61,7 @@
 							                    <argument>com.bestbuy.test.cucumber_test</argument>
 							                   
 							                    <argument>--tags</argument>
-							                    <argument>@all</argument>
+							                    <argument>${tag}</argument>
 							                    
 							                    <argument>--format</argument>
 							                    <argument>pretty</argument>
