@@ -1,0 +1,12 @@
+This project contains a maven project with showing an example of
+Cucumber Framework, Cucumber-jvm and Java Language for the glue code.
+Open CucumberRunner class and run it as a junit class in eclipse to 
+execute the cucumber scenarios within the IDE
+
+
+Este proyecto contiene una aplicacion maven demostrando un ejemplo
+de Cucumber Framework, Cucumber-jvm y el lenguaje de programacioin java
+para el codigo de pegado. 
+Puedes abrir la clase CucumberRunner y ejecutarla como una JUnit  
+ejecutar los escenarios de cucumber.
+
